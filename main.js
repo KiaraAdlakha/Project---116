@@ -34,3 +34,7 @@ if (result.length > 0)
     noseY=result[0].pose.nose.y+5;
 }
 }
+function take_snapshot()
+{
+  save("realtime_filter");
+}
